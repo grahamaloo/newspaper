@@ -197,6 +197,7 @@ class ContentExtractor(object):
                 return datetime_obj
 
         PUBLISH_DATE_TAGS = [
+            {'attribute': 'name', 'value': 'article.published', 'content': 'content'},
             {'attribute': 'property', 'value': 'rnews:datePublished', 'content': 'content'},
             {'attribute': 'property', 'value': 'article:published_time', 'content': 'content'},
             {'attribute': 'name', 'value': 'OriginalPublicationDate', 'content': 'content'},
